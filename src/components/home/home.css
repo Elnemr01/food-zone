@@ -1,0 +1,15 @@
+.home {
+    @apply min-h-[100vh];
+    background-image: url(/src/assets/bg.png);
+    margin-top: -6px;
+    background-size: cover;
+    padding-bottom: 30px;
+
+}
+
+.home .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 30px;
+    padding-top: 50px;
+}

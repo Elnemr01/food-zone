@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.card .info {
+    color: white;
+}
+
+.card .info h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card .info .text {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.card .info .price {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.card .info .price span {
+    background-color: #F44336;
+    padding: 2px 11px;
+    border-radius: 5px;
+}
