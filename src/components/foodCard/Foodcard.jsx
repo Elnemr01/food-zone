@@ -1,5 +1,5 @@
 import React from 'react'
-import "./foodcard.css"
+import "./foodCard.css"
 
 const Foodcard = ({card}) => {
 
